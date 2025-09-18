@@ -17,6 +17,13 @@
                 </button>
                 
                 <div class="collapse navbar-collapse header-navbar-collapse" id="headerNavbarNav">
+                    <!-- Close button for mobile -->
+                    <div class="d-lg-none mobile-close-button">
+                        <button class="btn-close-menu" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavbarNav">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    
                     <ul class="navbar-nav justify-content-center w-100">
                         <!-- Consultancy Mega Dropdown -->
                         <li class="nav-item dropdown header-mega-dropdown">
@@ -111,26 +118,17 @@
             </div>
         </nav>
 
-
-
-
         <!-- Bottom Blue Bar -->
-        <div class="header-top-section ">
-            <div class="container-fluid ">
+        <div class="header-top-section">
+            <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-md-2 col-6 text-start">
+                    <div class="col-md-3 col-12 text-start header-copyright">
                         <span>Ecospace Services Ltd © 2025</span>
                     </div>
-                    <div class="col-md-6 text-end d-none d-md-block">
+                    <div class="col-md-9 col-12 text-center header-links">
                         <a href="#">Privacy Policy</a>
                         <a href="#">Staff Email</a>
                         <a href="#">DB Login</a>
-                        <a href="#">Training Centre</a>
-                    </div>
-                    <div class="col-12 d-md-none text-center">
-                        <a href="#" class="me-3">Privacy Policy</a>
-                        <a href="#" class="me-3">Staff Email</a>
-                        <a href="#" class="me-3">DB Login</a>
                         <a href="#">Training Centre</a>
                     </div>
                 </div>
